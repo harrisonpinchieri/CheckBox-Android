@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String itensSelecionados = "";
 
+            // Checa na tela se o item foi selecinado ou não.
             itensSelecionados += "Item:  "+checkBoxCao.getText()+ "Status: "+ checkBoxCao.isChecked() + "\n";
             itensSelecionados += "Item:  "+checkBoxGato.getText()+ "Status: "+ checkBoxGato.isChecked() + "\n";
             itensSelecionados += "Item:  "+checkBoxPapagaio.getText()+ "Status: "+ checkBoxPapagaio.isChecked() + "\n";
